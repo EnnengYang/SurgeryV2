@@ -2,7 +2,7 @@ import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "3"
 
 import sys
-src_root_path = '/home/taskarithmetic/model_reprogramming/'
+src_root_path = '/home/taskarithmetic/'
 checkpoint_path = '/home/taskarithmetic/checkpoints/'
 dataset_path = '/home/taskarithmetic/data/'
 sys.path.append(src_root_path)

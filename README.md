@@ -32,18 +32,18 @@ The Google Drive folder is: [task_vectors_checkpoints](https://drive.google.com/
 
 ## Train
 
-### Model Merging Methods (e.g., Weight Averaging, Task Arithmetic, Ties-Merging, AdaMerging)
+- Model Merging Methods (e.g., Weight Averaging, Task Arithmetic, Ties-Merging, AdaMerging)
 ```
 python src/main_tv.py
 ```
 
-### Model Merging Methods with [Surgery](https://github.com/EnnengYang/DeepSurgery) (e.g., Weight Averaging w/ Surgery, Task Arithmetic w/ Surgery, Ties-Merging w/ Surgery, AdaMerging w/ Surgery)
+- Model Merging Methods with [Surgery](https://github.com/EnnengYang/RepresentationSurgery) (e.g., Weight Averaging w/ Surgery, Task Arithmetic w/ Surgery, Ties-Merging w/ Surgery, AdaMerging w/ Surgery)
 
 ```
 python src/main_tv_surgery_v1.py
 ```
 
-### Model Merging Methods with our [Surgery V2]() (e.g., Weight Averaging w/ Surgery V2, Task Arithmetic w/ Surgery V2, Ties-Merging w/ Surgery V2, AdaMerging w/ Surgery V2
+- Model Merging Methods with our [Surgery V2]() (e.g., Weight Averaging w/ Surgery V2, Task Arithmetic w/ Surgery V2, Ties-Merging w/ Surgery V2, AdaMerging w/ Surgery V2
 ```
 python src/main_tv_surgery_v2.py
 ```
