@@ -1,12 +1,12 @@
-# DeepSurgery or Surgery V2
-A repository of **'[Surgery V2: Deep Representation Surgery for Model Merging based Multi-Task Learning]()'**.
+# Surgery V2
+A repository of **'[SurgeryV2: Bridging the Gap Between Model Merging and Multi-Task Learning with Deep Representation Surgery]()'**.
 
 
 ## Abstract
 >
 
 <center>
-<img src="./deepsurgery.png" alt="DeepSurgery or Surgery V2" width="800"/>
+<img src="./surgeryv2.png" alt="Surgery V2" width="800"/>
 </center>
 
 ## Citation
@@ -43,7 +43,7 @@ python src/main_tv.py
 python src/main_tv_surgery_v1.py
 ```
 
-- Model Merging Methods with our [Surgery V2]() (e.g., Weight Averaging w/ Surgery V2, Task Arithmetic w/ Surgery V2, Ties-Merging w/ Surgery V2, AdaMerging w/ Surgery V2
+- Model Merging Methods with our [SurgeryV2]() (e.g., Weight Averaging w/ Surgery V2, Task Arithmetic w/ Surgery V2, Ties-Merging w/ Surgery V2, AdaMerging w/ Surgery V2
 ```
 python src/main_tv_surgery_v2.py
 ```
