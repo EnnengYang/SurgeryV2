@@ -12,6 +12,7 @@ A repository of **'[SurgeryV2: Bridging the Gap Between Model Merging and Multi-
 ## Citation
 If you find our paper or this resource helpful, please consider cite:
 ```
+
 ```
 Thanks!
 
@@ -43,10 +44,13 @@ python src/main_tv.py
 python src/main_tv_surgery_v1.py
 ```
 
-- Model Merging Methods with our [SurgeryV2]() (e.g., Weight Averaging w/ Surgery V2, Task Arithmetic w/ Surgery V2, Ties-Merging w/ Surgery V2, AdaMerging w/ Surgery V2
+- Model Merging Methods with our [SurgeryV2](https://github.com/EnnengYang/SurgeryV2) (e.g., Weight Averaging w/ Surgery V2, Task Arithmetic w/ Surgery V2, Ties-Merging w/ Surgery V2, AdaMerging w/ Surgery V2)
 ```
 python src/main_tv_surgery_v2.py
 ```
+
+*Note: Due to machine memory limitations, our implementation reloaded the dataset at each step, which resulted in a significant amount of additional time. If your machine has enough memory, you can load all the data before optimizing the surgery module, which will speed up the training significantly.*
+
 
 ## Acknowledgement
 Our implementation references the code below, thanks to them.
