@@ -10,12 +10,12 @@ A repository of **'[SurgeryV2: Bridging the Gap Between Model Merging and Multi-
 </center>
 
 ## Citation
-If you find our paper or this resource helpful, please consider cite:
+If you find our paper or this resource helpful, please consider citing:
 ```
 @article{SurgeryV2_Arxiv_2024,
   title={SurgeryV2: Bridging the Gap Between Model Merging and Multi-Task Learning with Deep Representation Surgery},
   author={Yang, Enneng and Shen, Li and Wang, Zhenyi and Guo, Guibing and Wang, Xingwei and Cao, Xiaochun and Zhang, Jie and Tao, Dacheng},
-  journal={arXiv preprint arXiv:},
+  journal={arXiv preprint arXiv:2410.14389},
   year={2024}
 }
 
